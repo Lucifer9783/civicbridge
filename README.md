@@ -1,20 +1,133 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🏙️ CivicBridge – Smart Civic Grievance Reporting Platform
 
-# Run and deploy your AI Studio app
+CivicBridge is a full-stack web platform that enables citizens to report civic issues (garbage, potholes, streetlights, etc.) with precise 3-word grid-based location identification, making it easier for government officials to locate and resolve problems quickly.
 
-This contains everything you need to run your app locally.
+🚀 Problem Statement
 
-View your app in AI Studio: https://ai.studio/apps/drive/1EYDCF_AzNCj8FPw-4E1iX3nRDxWiaj0N
+In cities like Visakhapatnam, citizens often struggle to describe the exact location of civic issues using traditional addresses or map pins. This leads to:
 
-## Run Locally
+Delayed issue resolution
 
-**Prerequisites:**  Node.js
+Miscommunication
 
+Inefficient field navigation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+💡 Solution
+
+CivicBridge divides the city map into small grid blocks, where each block is uniquely identified by a combination of 3 English words (similar to a what3words-style approach).
+
+This ensures:
+
+Precise, human-readable locations
+
+Faster navigation for officials
+
+Reduced ambiguity and time waste
+
+✨ Key Features
+👤 Citizen Portal
+
+Select exact location using interactive map
+
+Automatically generated 3-word location address
+
+Capture or upload photo of the issue
+
+Categorize grievance (Garbage, Potholes, etc.)
+
+Submit grievance in real-time
+
+🛠️ Admin Dashboard
+
+View all grievances fetched directly from MongoDB
+
+Interactive map with markers for each issue
+
+Click markers to view details
+
+Navigate from admin’s current location to grievance location
+
+View images, category, description, and 3-word address
+
+🗺️ Map & Location System
+
+City divided into grid blocks
+
+Grid appears only at higher zoom levels
+
+Each grid cell mapped to a unique 3-word identifier
+
+Click on grid → get block name → submit issue
+
+🧑‍💻 Tech Stack
+Frontend
+
+React + TypeScript
+
+Vite
+
+Leaflet.js (Maps)
+
+Tailwind CSS
+
+Backend
+
+Flask (Python)
+
+REST API
+
+CORS enabled
+
+🎯 Use Case Impact
+
+Faster civic issue resolution
+
+Improved government response efficiency
+
+Clear navigation using 3-word addresses
+
+Citizen-friendly reporting system
+
+🏆 Hackathon Value
+
+Solves a real civic problem
+
+Combines GIS + UX + Backend
+
+Scalable to any city
+
+Minimal learning curve for users
+
+📌 Future Enhancements
+
+Status tracking (Pending / In Progress / Resolved)
+
+Role-based authentication
+
+Mobile app support
+
+Analytics dashboard for authorities
+
+SMS / Email notifications
+
+👨‍💻 Author
+
+Bhavesh Nellimarla
+Manepalli Rishab
+Ch Harshita
+Pemmadi Ashrita
+K Saatwika
+Built as part of a 24-hour Hackathon Project
+
+⭐ Acknowledgements
+
+OpenStreetMap
+
+Leaflet.js
+
+MongoDB Atlas
+
+React & Flask communities
+Database
+
+MongoDB Atlas (Cloud)
