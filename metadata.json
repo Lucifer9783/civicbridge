@@ -1,0 +1,9 @@
+
+{
+  "name": "CivicBridge",
+  "description": "A web application for citizens of Visakhapatnam to report civic issues using a unique three-word grid address system. This system simplifies location identification for faster resolution.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
