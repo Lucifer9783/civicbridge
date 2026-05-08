@@ -113,7 +113,7 @@ SMS / Email notifications
 👨‍💻 Author
 
 Bhavesh Nellimarla
-Manepalli Rishab
+Manepalli Venkata Rishab
 Ch Harshita
 Pemmadi Ashrita
 K Saatwika
